@@ -1,7 +1,7 @@
 const isNight = true;  // changes from sunrise to night
 const timeOfDay = isNight ? "night" : "sunrise";
 const booleanValue = timeOfDay.includes("night");  // true if night time
-const place = "Salty Spitoon";
+let place = "Salty Spitoon";
 const person = { name: "Flying Dutchman", age: 500 };
 const sound = "screech";
 const num1 = 200;
